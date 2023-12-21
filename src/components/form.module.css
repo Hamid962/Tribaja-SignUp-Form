@@ -1,0 +1,139 @@
+.form {
+  width: 550px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+.label {
+  font-size: 18px;
+  margin-bottom: 7px;
+  display: block;
+  width: 400px;
+}
+input {
+  width: 400px;
+  /* border-radius: 10px; */
+  height: 54px;
+  margin-bottom: 24px;
+  font-size: 20px;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(102, 102, 102, 0.35);
+}
+input:focus {
+  outline: none;
+}
+.btnGmail {
+  background-color: #5937cc;
+  width: 100%;
+  border-radius: 38px;
+  margin-bottom: 16px;
+  height: 50px;
+  border: none;
+  /* font-size: 18px; */
+  /* color: #fff; */
+  width: 400px;
+  padding: 10px 104px;
+
+  color: #f2f4f7;
+  font-family: Space Grotesk;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.btnGmail:hover {
+  background-color: #3d2f79;
+  color: #f2f4f7;
+  cursor: pointer;
+}
+
+.flexContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  position: relative;
+}
+.paragraph {
+  width: 400px;
+  color: #1e1e2f;
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.span {
+  color: #5937cc;
+  font-family: Space Grotesk;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+select:focus {
+  outline: none;
+}
+
+.select {
+  width: 400px;
+  /* border-radius: 10px; */
+  height: 54px;
+  margin-bottom: 24px;
+  font-size: 20px;
+  padding: 12px 4px;
+  border-radius: 12px;
+  border: 1px solid rgba(102, 102, 102, 0.35);
+  background-color: #fff;
+}
+.icon {
+  position: absolute;
+  top: 4px;
+  right: 87px;
+  display: block;
+}
+.iconEye {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 4px;
+  right: 87px;
+  display: block;
+  padding-bottom: 6px;
+}
+
+/* .flexContainerGmail {
+  display: flex;
+  padding: 16px 174px;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  border-radius: 24px;
+  background: #4285f4;
+  margin-bottom: 24px;
+  width: 500px;
+  height: 50px;
+}
+
+.flexContentGmail {
+  /* color: #f2f4f7; */
+/* font-family: Space Grotesk;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+  background-color: none; */
+/* }  */

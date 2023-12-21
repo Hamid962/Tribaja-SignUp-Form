@@ -1,0 +1,172 @@
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  width: 409px;
+  margin: 0 auto;
+  padding-bottom: 24px;
+}
+.firstHeading {
+  margin-top: 70px;
+  color: #1e1e2f;
+  font-family: Space Grotesk;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 114.5%; /* 45.8px */
+  margin-bottom: 8px;
+}
+/* #339af0 
+#228be6
+#1971c2
+#1864ab
+#4dabf7
+#5c7cfa
+#5937cc
+*/
+.paragraph {
+  /* color: #999;
+  font-family: Space Grotesk;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 114.5%; /* 14.885px */
+  font-size: 16px;
+  margin-bottom: 24px;
+  /* padding: 0 25px; */
+  align-items: start;
+  /* text-align: left; */
+  color: #999;
+  font-family: Space Grotesk;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 114.5%; /* 14.885px */
+  width: 400px;
+}
+
+/* .btnGoogle {
+  background-color: #4285f4;
+  width: 100%;
+  border-radius: 24px;
+  padding: 8px;
+  margin-bottom: 24px;
+  height: 64px;
+  font-size: 18px;
+  color: #fff;
+}
+.btnLinkedin {
+  background-color: #0288d1;
+  width: 100%;
+  border-radius: 24px;
+  padding: 8px;
+  margin-bottom: 24px;
+  height: 64px;
+  font-size: 18px;
+  color: #fff;
+} 
+
+span {
+  font-size: 16px;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 32px;
+}
+/* span::after {
+  width: 100%;
+  background-color: black;
+  position: absolute;
+  right: 5;
+  top: 2;
+} */
+.flexContainerGoogle {
+  display: flex;
+  /* padding: 12px 100px; */
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  border-radius: 24px;
+  background: #4285f4;
+  margin-bottom: 24px;
+  cursor: pointer;
+  padding: 12px 0;
+}
+.flexContainerGoogle:hover {
+  background: #244275;
+  color: #f2f4f7;
+}
+
+.flexContent {
+  color: #f2f4f7;
+  font-family: Space Grotesk;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.flexContainerLinkedin {
+  display: flex;
+  padding: 12px 0;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  border-radius: 24px;
+  background: #0288d1;
+  margin-bottom: 24px;
+  cursor: pointer;
+  width: 100%;
+}
+.flexContainerLinkedin:hover {
+  background: #0b3f5f;
+  color: #f2f4f7;
+}
+.separator {
+  align-items: center;
+  color: #000;
+  display: flex;
+  font-size: 16px;
+  font-weight: 300;
+  gap: 23px;
+  margin-block: 32px 16px;
+  justify-content: center;
+}
+.separator::after {
+  /* position: absolute; */
+  width: 170px;
+  background-color: #2c2929;
+  /* border: 1px solid black; */
+  height: 1px;
+  content: "";
+  display: block;
+}
+.separator::before {
+  /* position: absolute; */
+  width: 170px;
+  background-color: #2c2929;
+  /* border: 1px solid black; */
+  height: 1px;
+  content: "";
+  display: block;
+}
+/* .signUp__container-seperator {
+    align-items: center;
+    color: var(--Text-Primary);
+    display: flex;
+    font-size: 16px;
+    font-weight: 300;
+    gap: 23px;
+    margin-block: 32px 16px; */
+/*.icon 
+
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+  <path d="M21 18.5C21 19.881 19.881 21 18.5 21H5.5C4.1195 21 3 19.881 3 18.5V5.5C3 4.119 4.1195 3 5.5 3H18.5C19.881 3 21 4.119 21 5.5V18.5Z" fill="#0288D1"/>
+  <path d="M6 9.5H8.5V18H6V9.5ZM7.2425 8.5H7.2285C6.4825 8.5 6 7.944 6 7.2495C6 6.54 6.4975 6 7.257 6C8.0175 6 8.486 6.54 8.5 7.2495C8.5 7.9435 8.0175 8.5 7.2425 8.5ZM18 18H15.5V13.4505C15.5 12.3515 14.8875 11.6015 13.904 11.6015C13.1535 11.6015 12.7475 12.1075 12.5505 12.5965C12.4785 12.7715 12.5 13.2555 12.5 13.5V18H10V9.5H12.5V10.808C12.8605 10.25 13.425 9.5 14.869 9.5C16.658 9.5 17.9995 10.625 17.9995 13.137L18 18Z" fill="white"/>
+</svg>*/
+/* span
+display: flex;
+width: 400px;
+align-items: center;
+gap: 23px;
+mb 16px */
